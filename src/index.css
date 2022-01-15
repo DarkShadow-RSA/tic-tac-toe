@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #28282b;
+  display: flex;
+  justify-content: center;
+}
+.maingame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerStyle {
+  color: rgb(255, 180, 247);
+}
+
+.table {
+  width: 280px;
+  height: 280px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 1rem;
+  margin: 5px;
+}
+
+.turnBtn button {
+  display: flex;
+  justify-content: space-between;
+  background: #db251b;
+  color: #7cf600;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  padding: 10px;
+  margin: 5px;
+}
+li {
+  list-style: none;
+  padding-top: 10px;
+}
+ul {
+  display: flex;
+  align-items: center;
+}
+.restartBtn {
+  background: #7cf600;
+  border: none;
+  cursor: pointer;
+  padding: 14px;
+  margin: 8px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.scoreboardStyle {
+  color: #7cf600;
+  border: 3px solid #db251b;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.square {
+  background: #db251b;
+  color: #7cf600;
+  border-radius: 12px;
+  border: none;
+  font-size: 3rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.squareSelected {
+  background: #db251b;
+  color: #7cf600;
+  border-radius: 12px;
+  border: 2px solid#7cf600;
+  font-size: 3rem;
+  cursor: pointer;
+  outline: none;
+}
